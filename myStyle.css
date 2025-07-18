@@ -1,0 +1,60 @@
+.ex1{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+    
+.ex2{
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+
+body{
+  display: flex;
+}
+
+table,td{
+  padding: 0px; 
+  margin: 0px; 
+  cellspacing: 0; 
+  cellpadding:0; 
+  border-collapse:collapse; 
+  border-spacing: 0px;  
+  border:none; 
+}
+
+img{ 
+  display:block;   
+}
+
+#sideArea{
+  background-color: rgb(148, 209, 233);
+  width: 100%;
+  height: fit-content;
+  margin-left : 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#buttonDiv{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10%;
+}
+
+#dice{
+
+  background: url(ImagesDice/1.png);
+  width: 70px;
+  height: 70px;
+  background-size: 100%;
+  background-color: blanchedalmond;
+  border-radius: 16%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  align-self: center;
+
+}

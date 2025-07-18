@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="myStyle.css">
+<script src="functions.js"></script>
+</head>
+<body onload=initBoard()>
+
+  <div id="mainArea">
+    <table  id="mainTable">
+    </table>
+    <br>
+    <button onclick="newGame()">New Game</button>
+  </div>
+
+  <div id="sideArea">
+    <div>
+        <p>Turn: <p id="turn"><br></p></p>
+        <br>
+        <p>Rolled: <p id="diceResult"><br></p></p>
+        <br>
+        <p>Has September effect: <p id="septemberEffect"><br></p></p>
+        <p>Updates: <p id="updates"><br></p></p>
+    </div>
+    <div id="buttonDiv">
+        <button id="endTurn" onclick="endTurn()">End Turn</button>
+        <button id="dice" onclick="roll()"></button>
+    </div>
+    
+  </div>
+    
+
+</body>
+</html>
+
+
